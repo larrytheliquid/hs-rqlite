@@ -13,7 +13,7 @@ import           Control.Concurrent (threadDelay)
 import           Control.Exception
 import           Data.Aeson hiding (Result)
 import qualified Data.ByteString.Char8 as C8
-import qualified Data.HashMap.Strict as M
+import qualified Data.Aeson.KeyMap as M
 import           GHC.Generics
 import           Network.HTTP hiding (host)
 

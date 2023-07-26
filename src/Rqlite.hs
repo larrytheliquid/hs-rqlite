@@ -25,7 +25,7 @@ import qualified Data.Text as Text
 import qualified Data.ByteString.Char8 as Char8
 import           Data.Scientific
 import           Data.Typeable
-import qualified Data.HashMap.Strict as M
+import qualified Data.Aeson.KeyMap as M
 import           GHC.Generics
 import           GHC.IO.Exception
 import           Network.HTTP hiding (host)
